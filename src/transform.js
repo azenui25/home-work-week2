@@ -1,5 +1,4 @@
 const groupAdultsByRange = (transform) => {
-    console.log(transform)
 
 }
 
