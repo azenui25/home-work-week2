@@ -1,6 +1,11 @@
-const groupAdultsByRange = (transform) => {
-
+const groupAdultsByRange = (grouping) => {
+    let adultRange = grouping.filter(adultRange => adultRange.age > 18)
+    return adultRange
 }
 
-
-module.exports = { groupAdultsByRange }
+const groupAdultsByRange = (grouping) => {
+    return grouping.map(grouping => grouping.age)
+}
+module.exports = {
+    groupAdultsByRange
+}

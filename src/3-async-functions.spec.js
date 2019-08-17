@@ -1,9 +1,6 @@
 const assert = require("assert")
 const nock = require('nock')
-const {
-    getTatooineResidents,
-    promiseMeAString,
-} = require("./async-functions")
+
 const {
     getTatooineResidents,
     promiseMeAString,
