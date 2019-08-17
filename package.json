@@ -1,18 +1,29 @@
 {
-  "name": "hw-ib-week1",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "scripts": {
-    "test": "mocha src/*.spec.js",
-    "test1": "mocha src/1-*.spec.js",
-    "test2": "mocha src/2-*.spec.js",
-    "test3": "mocha src/3-*.spec.js"
-  },
-  "devDependencies": {
-    "mocha": "^5.2.0"
-  },
-  "dependencies": {
-    "nock": "^10.0.6"
-  }
+    "name": "hw-ib-week1",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "mocha src/*.spec.js --watch",
+        "test1": "mocha src/1-*.spec.js --watch",
+        "test2": "mocha src/2-*.spec.js --watch",
+        "test3": "mocha src/3-*.spec.js --watch"
+    },
+    "devDependencies": {
+        "mocha": "^5.2.0"
+    },
+    "dependencies": {
+        "chalk": "^2.4.2",
+        "nock": "^10.0.6"
+    },
+    "description": "This assignment covers the first week of the Intermediate Bootcamp. This repository contains 3 test files, each covering a single task. The order of the tasks does not matter. **You can complete them in any order.** Try to complete as many of them as you can.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/azenui25/home-work-week2.git"
+    },
+    "author": "",
+    "bugs": {
+        "url": "https://github.com/azenui25/home-work-week2/issues"
+    },
+    "homepage": "https://github.com/azenui25/home-work-week2#readme"
 }
